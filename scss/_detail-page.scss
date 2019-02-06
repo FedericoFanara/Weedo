@@ -1,0 +1,33 @@
+section.detail-page{
+
+  .btn-row{
+    margin-top: 20px;
+  }
+
+  .btn{
+    width: 320px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .btn-warning{
+    border-color: black !important;
+  }
+
+  .description{
+    margin-top: 20px;
+  }
+
+  .detail-col{
+    margin-top: 30px;
+
+    p.detail-text{
+      font-weight: bold;
+      color: white;
+      span{
+        font-weight: normal;
+        color: black;
+      }
+    }
+  }
+}
