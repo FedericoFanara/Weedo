@@ -51,7 +51,7 @@
         }
         .navbar-nav > li > a,
         .navbar-nav > li > a:focus {
-            color: fade-out(white, .3);
+            color: $nav-link;
             &:hover {
                 color: white;
             }

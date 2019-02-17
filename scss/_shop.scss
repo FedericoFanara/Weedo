@@ -3,7 +3,9 @@ section.shop{
 
     .card{
       margin-bottom: 20px;
-      box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+      &:hover{
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+      }
 
       .card-header{
         h4{

@@ -129,7 +129,7 @@ section h2 {
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus, #shopNav .navbar-nav > li > a,
   #shopNav .navbar-nav > li > a:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: #ffc107;
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover, #shopNav .navbar-nav > li > a:hover,
@@ -295,7 +295,7 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  background-image: url("../img/weedo_01.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -404,6 +404,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   text-decoration: none;
 }
 
+.download-section-bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffb600), to(#ffd46b));
+  background: linear-gradient(#ffb600, #ffd46b);
+}
+
 .bg-primary {
   background: #fdcc52;
   background: -webkit-gradient(linear, left top, left bottom, from(#fdcc52), to(#fdc539));
@@ -445,6 +450,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 section.shop .card-container .card {
   margin-bottom: 20px;
+}
+
+section.shop .card-container .card:hover {
   -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
 }
