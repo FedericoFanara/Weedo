@@ -415,6 +415,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: linear-gradient(#fdcc52, #fdc539);
 }
 
+.bg-detail-page {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc107), to(#ced4da));
+  background-image: linear-gradient(#ffc107, #ced4da);
+}
+
 .text-primary {
   color: #fdcc52;
 }
@@ -448,6 +453,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
+section.shop {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb600), to(#ffd46b));
+  background-image: linear-gradient(#ffb600, #ffd46b);
+}
+
 section.shop .card-container .card {
   margin-bottom: 20px;
 }
@@ -478,6 +488,12 @@ section.detail-page .btn {
 
 section.detail-page .btn-warning {
   border-color: black !important;
+}
+
+section.detail-page .btn-secondary {
+  color: #ffc000;
+  background-color: #000000;
+  border-color: #222;
 }
 
 section.detail-page .description {

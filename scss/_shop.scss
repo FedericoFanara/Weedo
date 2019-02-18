@@ -1,4 +1,6 @@
 section.shop{
+
+  background-image: $download-section;
   .card-container{
 
     .card{
@@ -6,6 +8,7 @@ section.shop{
       &:hover{
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
       }
+
 
       .card-header{
         h4{
